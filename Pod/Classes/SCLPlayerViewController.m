@@ -97,7 +97,8 @@ NSString* const SCLPlayerPropertyBuying = @"buying";
         
         [self.pendingResponseHandlers addEntriesFromDictionary:@{
             @"getSounds" : [NSMutableArray array],
-            @"getCurrentSound" : [NSMutableArray array]
+            @"getCurrentSound" : [NSMutableArray array],
+            @"getDuration" : [NSMutableArray array]
         }];
     }
     
